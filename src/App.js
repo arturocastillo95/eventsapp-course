@@ -8,8 +8,10 @@ const sampleEvents = [
     name: 'Metallica',
     time: '5:00 p.m.',
     location: 'Ciudad de México',
-    day: 5,
-    month: 'Diciembre',
+    date: {
+      day: 5,
+      month: 'DIC',
+    },
     image: '',
   },
   {
@@ -17,8 +19,10 @@ const sampleEvents = [
     name: 'Orquesta sinfonica',
     time: '7:00 p.m.',
     location: 'Queretaro',
-    day: 5,
-    month: 'Diciembre',
+    date: {
+      day: 5,
+      month: 'DIC'
+    },
     image: '',
   },
 
@@ -27,8 +31,10 @@ const sampleEvents = [
     name: 'Obra de teatro',
     time: '7:00 p.m.',
     location: 'Guanajuato',
-    day: 5,
-    month: 'Noviembre',
+    date: {
+      day: 5,
+      month: 'DIC'
+    },
     image: '',
   },
 ]
